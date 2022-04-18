@@ -1,0 +1,7 @@
+https://highload.today/kak-sozdat-telegram-bot-na-python-poshagovoe-rukovodstvo/
+
+Модуль telegram.ext содержит много классов,
+но самые важные — telegram.ext.Updater и telegram.ext.Dispatcher.
+Updater отвечает за выборку новых обновлений от Telegram.
+ Также он передает их в Dispatcher, после чего они обрабатываются
+ с помощью Handler
